@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main () {
     char nome[100];
     int idade, opcao;
     float dinheiro;
 
-    printf("Bom noite! Qual eh o seu nome? \n");
+    printf("Boa noite! Qual eh o seu nome? \n");
     scanf("%s", nome);
 
     printf("Excelente! %s, qual eh a sua idade? \n", nome);
