@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main () {
     char nome[100];
@@ -13,7 +14,7 @@ int main () {
 
     printf("Otimo! %s, quanto voce vai depositar? \n", nome);
     scanf("%f", &dinheiro);
-    system("clear");
+    system("cls");
 
     // while (opcao != 0) {
     //     printf("\nO que voce deseja fazer?\n");
@@ -23,7 +24,7 @@ int main () {
     //     printf("(0) Encerrar\n");
     //     scanf("%d", &opcao);
 
-    //     system("clear");
+    //     system("cls");
     //     if (opcao == 1) {
     //         printf("Nome: %s\n", nome);
     //     } else if (opcao == 2) {
@@ -45,7 +46,7 @@ int main () {
         printf("(0) Encerrar\n");
         scanf("%d", &opcao);
 
-        system("clear");
+        system("cls");
         if (opcao == 1) {
             printf("Nome: %s\n", nome);
         } else if (opcao == 2) {
